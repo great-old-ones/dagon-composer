@@ -12,5 +12,5 @@
 
 - name: Install composer completion shell script.
   homebrew:
-    name: composer-completions
+    name: composer-completion
     state: present
