@@ -1,0 +1,16 @@
+---
+
+- name: Add homebrew/completions tap.
+  homebrew_tap:
+    tap: homebrew/completions
+    state: present
+
+- name: Install composer.
+  homebrew:
+    name: composer
+    state: present
+
+- name: Install composer completion shell script.
+  homebrew:
+    name: composer-completions
+    state: present
