@@ -9,8 +9,3 @@
   homebrew:
     name: composer
     state: present
-
-- name: Install composer completion shell script.
-  homebrew:
-    name: composer-completion
-    state: present
